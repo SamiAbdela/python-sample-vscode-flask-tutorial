@@ -105,7 +105,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : $(webAppName)
+            displayName: 'Deploy Azure Web App : sasb-pyflask
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appType: webApp
